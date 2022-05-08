@@ -1,0 +1,40 @@
+Este ficheiro tem como objetivo ditar todos os programas que vão ser necessários para executar esta analise filogenética a utilizar os scripts "prepScript.sh" e "mainScript.sh".
+
+----------
+
+This file is intended to dictate all the programs that will be needed to perform this phylogenetic analysis using the "prepScript.sh" and "mainScript.sh" scripts.
+
+---------
+
+prepScript.sh: 
+	
+	Para alinhar as sequencias:
+	MAFFT v7.453
+	sudo apt install mafft
+	
+Para concatenar as sequencias:
+Mega v11.0.11
+More info on how to install: https://www.megasoftware.net/
+
+mainScript.sh // mainScript-Test.sh :
+(The test version is only for testing purposes, the phylogenetic trees presented while running this script are not correct and shouldn't be used for analisys.)
+
+	Para converter as sequencias a NEXUS:
+	seqmagick v0.8.0
+	sudo apt install seqmagick
+	
+	Para executar análise Baesiana:
+	MrBayes v3.2.7
+	More info on how to install: https://nbisweden.github.io/MrBayes/download.html
+	
+	Para mostrar as árvores resultantes:
+	figtree v1.4.4
+	sudo apt install figtree
+	
+---------
+
+São capazes de existir outros programas para o mesmo efeito no entanto para que a analise seja feita com a ajuda dos dois scripts em causa, estes são os programas necessários.
+
+---------
+
+There may be other programs for the same purpose, however for the analysis to be carried out with the help of the two scripts in question, these are the necessary programs.
