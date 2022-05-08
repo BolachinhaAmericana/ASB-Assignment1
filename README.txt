@@ -17,7 +17,7 @@ Este ficheiro é o README para que seja possivel obter as árvores filogenética
 	Este é o unico passo que deverá ser executado pelo utilisador. 
 	2.1 - Execute o software MegaX
 	2.2 - No seu GUI selecione, na aba "DATA", a segunda opção: "Concatenate Sequence Alignments"
-	2.3 - Após clicar, irá abrir uma janela onde deverá navegar até à pasta criada inicialmente: "sequencesVMPY" e selecionar primeiramente a pasta "mitochondrial". Deverá então abrir os dados e exportar em formato FASTA para a pasta "concSeqs" dentro da "sequences.BMPY" e dar-lhe o nome de "mitoConc.fas".
+	2.3 - Após clicar, irá abrir uma janela onde deverá navegar até à pasta criada inicialmente: "sequencesVMPY" e selecionar primeiramente a pasta "mitochondrial". Deverá então abrir os dados e exportar em formato FASTA para a pasta "concSeqs" dentro da "sequences.VMPY" e dar-lhe o nome de "mitoConc.fas".
 	2.4 - Terá de repetir este processo para as pastas "nuclear" e "total".
 	No final a pasta "concSeqs" deverá ter três ficheiros, sendo estes o "mitoConc.fas", o "nucConc.fas" e o "totalConc.fas"
 	
@@ -42,7 +42,7 @@ This file is the README so that it is possible to obtain the phylogenetic trees 
 	This is the only step that must be performed by the user.
 	2.1 - Run the MegaX software
 	2.2 - In your GUI select, in the "DATA" tab, the second option: "Concatenate Sequence Alignments"
-	2.3 - After clicking, a window will open where you must navigate to the folder created initially: "sequencesVMPY". First select the folder "mitochondrial". You should then open the data and export it in FASTA format to the "concSeqs" folder inside "sequences.BMPY" and name it "mitoConc.fas".
+	2.3 - After clicking, a window will open where you must navigate to the folder created initially: "sequencesVMPY". First select the folder "mitochondrial". You should then open the data and export it in FASTA format to the "concSeqs" folder inside "sequences.VMPY" and name it "mitoConc.fas".
 	2.4 - You will have to repeat this process for the "nuclear" and "total" folders.
 	At the end the "concSeqs" folder should have three files, these being "mitoConc.fas", "nucConc.fas" and "totalConc.fas"
 	
